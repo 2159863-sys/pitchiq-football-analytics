@@ -1,0 +1,17 @@
+
+# Secret environment variables
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Node.js dependencies
+node_modules/
+
+# Next.js build files
+.next/

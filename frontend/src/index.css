@@ -1,0 +1,74 @@
+/* Base tokens and resets for the PitchIQ dashboard */
+:root {
+  --bg: #f6f5f0;
+  --surface: #ffffff;
+  --surface-muted: #f8f7f3;
+  --border: #e4e2da;
+  --border-strong: #d4d1c6;
+
+  --text: #23292a;
+  --text-secondary: #4f5853;
+  --text-muted: #7d857f;
+
+  --green: #2f5d45;
+  --green-dark: #254a37;
+  --green-soft: #eaf0ea;
+  --green-focus: #8fb39b;
+
+  --home: #b5483f;
+  --home-soft: #f6e6e3;
+  --home-ink: #8c342c;
+  --away: #2f65a8;
+  --away-soft: #e4ecf6;
+  --away-ink: #24508a;
+  --trail: #d9b45f;
+
+  --radius: 10px;
+  --sans: Inter, "Segoe UI", system-ui, -apple-system, Roboto, Arial,
+    sans-serif;
+
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  /* The dashboard is light only, so keep native controls light too */
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--green);
+}
+
+button,
+select,
+input {
+  font: inherit;
+  color: inherit;
+}
